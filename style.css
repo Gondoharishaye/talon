@@ -1,0 +1,149 @@
+* 
+{
+margin: 0;
+padding:0;
+}
+
+/*my nav bar position*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+/*re-visit logo*/
+#navbar-brand img{
+	height: 20px;
+	
+	padding-left: : 30px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+	
+}
+#nav-bar ul li a:hover{
+	color: #007bff!important;
+}
+.navbar{
+	background: :#ffff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size:16px; 
+}
+#slider
+{
+
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5{
+	color: #fff;
+	font-size: 42px;
+
+}
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+.about-content p
+{
+	padding-top: 20px;
+
+}
+.skills-bar
+{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0,8),rgba(0,0,0,0,8)),
+	url(images\energy.jpg); 
+	background-size: cover;
+	background-position: center;
+	
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+#services h1
+{
+	text-align: center;
+	
+	padding-bottom: 10px;
+}
+#services h1::after
+{
+content: '';
+background: #efefef;
+display: block;
+height: 3px;
+width: 170px;
+margin: 20px autp 5px;
+
+}
+.time
+{
+	float: left;
+	padding-top: 50px;
+	
+}
+
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+
+}
+::placeholder
+{
+
+}
+.follow
+{
+	background: #fff;
+	padding:10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin: 10px;
+	color:#007bff;
+	font-weight: bold;
+}
